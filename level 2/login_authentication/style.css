@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.login-page
+{
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.login-panel
+{
+    background-color: #e0e2e4;
+    vertical-align: middle;
+    border-width: 1px;
+    margin: auto;
+    width: 200px;
+    padding: 50px;
+    padding-top: 30px;
+    border-radius: 40px;
+    box-shadow: 0px 1px 10px 1px rgb(173, 172, 172);
+}
+label{
+    display: block;
+    text-align: left;
+    margin-bottom: 10px;
+    position:relative;
+    top: 21px;
+    left: 5px;
+    width: fit-content;
+    font-size: 10px;
+    padding: 4px;
+    background-color: #e0e2e4;
+    margin-top: 0px;
+}
+input{
+    width: 100%;
+    padding: 5px;
+    padding-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: grey;
+    background-color: #e0e2e4;
+}
+h1{
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+input{
+    display: block;
+}
+button{
+    margin: 10px;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 50px;
+    border-style: none;
+    width: 60px;
+    margin-bottom: -25px;
+}
+#signIn
+{
+    background-color: rgb(47, 47, 245);
+    color: white;
+}
+#signUp
+{
+    background-color:rgba(180, 180, 180, 0.656);
+}
+p{
+    color: rgb(245, 44, 44);
+    text-align: left;
+    font-size: 10px;
+    margin: 0px;
+}
